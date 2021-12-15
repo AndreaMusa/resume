@@ -16,7 +16,7 @@ header {
 
 h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 60px;
+  font-size: 3.5rem;
   font-weight: 800;
   margin-bottom: 50px;
   color: #333333;
@@ -24,28 +24,28 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  margin-bottom: 50px;
+  font-size: 2.7rem;
+  margin-bottom: 10vh;
   color: #444444;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 2.15rem;
   margin-bottom: 50px;
   color: #555555;
 }
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 30px;
   color: #444444;
 }
 
 a {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.8rem;
   font-weight: 500;
   color: #444444;
   text-decoration: none;
@@ -62,7 +62,7 @@ table {
 
 td {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 30px;
   padding: 20px 20px 20px 0px;
   color: #555555;
@@ -97,7 +97,7 @@ video {
 
 .presentation-text {
   font-family: "Open Sans", sans-serif;
-  font-size: 30px;
+  font-size: 1.7rem;
   color: #444444;
 }
 
@@ -108,7 +108,7 @@ video {
 
 .textLinks {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   padding: 20px 0px 20px 0px;
   color: #555555;
   font-weight: bold;
@@ -125,7 +125,7 @@ video {
 
 #email {
   font-family: "Open Sans", sans-serif;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: bold;
 }
 
@@ -143,4 +143,52 @@ video {
 #logo {
   height: 8vh;
   width: auto;
+}
+
+@media screen and (max-width: 768px) {
+  a {
+    font-size: 0.6rem;
+  }
+
+  header {
+    margin-top: 30vh;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin-bottom: 3vh;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  ul {
+    margin-left: 7vw;
+  }
+
+  p,
+  td,
+  #email,
+  .textLinks {
+    font-size: 0.7rem;
+    line-height: 20px;
+  }
+
+  .section {
+    margin-left: 7vw;
+  }
+
+  .presentation-text {
+    font-size: 0.63rem;
+  }
+
+  #logo {
+    height: 3.5vh;
+    width: auto;
+  }
 }
